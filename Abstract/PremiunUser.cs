@@ -14,7 +14,7 @@ namespace Interface
             return $"`s balance is: {Balance} + {BonusBalance}. Attention! This is Premium user."
 ;
         }
-        public override int ResetBalance(int Balace)
+        public override int ResetBalance(int Balance)
         {
             return Balance = 0;
         }

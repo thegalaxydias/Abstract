@@ -17,8 +17,8 @@ namespace Interface
                 new PremiumUser { Name = "larry", Balance = 98, BonusBalance = 1 }
             };
 
-            
-           
+
+            ResetBalance(user);
             ShowUserBalance(user);
             
 
@@ -31,15 +31,16 @@ namespace Interface
 
                
             }
-             static int ResetBalance(int Balance)
-        {
-                foreach (IUsers users in user) 
+            static void ResetBalance( IEnumerable<IUsers> user)
+            {
+                foreach (IUsers users in user)
                 {
-                    return users.Balance = 0;
+                    
+                   int Balance = 0;
                 }
             }
 
-    }
+        }
     }
 
 }

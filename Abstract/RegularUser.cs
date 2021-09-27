@@ -13,7 +13,7 @@ namespace Interface
             return $"`s balance is: {Balance}";
         }
 
-        public override int ResetBalance(int Balace)
+        public override int ResetBalance(int Balance)
         {
             return Balance = 0;
         }

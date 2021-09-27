@@ -10,7 +10,7 @@ namespace Interface
       public abstract string Name { get; set; }
         public abstract string GetBalanceData();
 
-       // public abstract int ResetBalance();
+        public abstract int ResetBalance(int Balance);
         
         
     }
