@@ -33,12 +33,12 @@ namespace Interface
                
             }
 
-            static int ResetBalance(IEnumerable<IUsers> user)
+            static void ResetBalance(IEnumerable<IUsers> user)
             {
                 foreach (IUsers users in user)
                 {
 
-                   return users.Balance = 0;
+                    users.Balance = 0;
                 }
             }
         }
