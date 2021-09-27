@@ -15,7 +15,7 @@ namespace Interface
 
         public override int ResetBalance(int Balance)
         {
-            return Balance = 0;
+            return Balance = Balance *0 ;
         }
 
     }

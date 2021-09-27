@@ -22,6 +22,7 @@ namespace Interface
             ShowUserBalance(user);
             
 
+
             static void ShowUserBalance(IEnumerable<IUsers> user)
             {
                 foreach (IUsers users in user)
@@ -31,15 +32,15 @@ namespace Interface
 
                
             }
-            static void ResetBalance( IEnumerable<IUsers> user)
+
+            static int ResetBalance(IEnumerable<IUsers> user)
             {
                 foreach (IUsers users in user)
                 {
-                    
-                   int Balance = 0;
+
+                   return users.Balance = 0;
                 }
             }
-
         }
     }
 
