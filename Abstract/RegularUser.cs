@@ -12,6 +12,6 @@ namespace Interface
         {
             return $"`s balance is: {Balance}";
         }
-
+        
     }
 }

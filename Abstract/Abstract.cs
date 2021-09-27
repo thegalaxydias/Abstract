@@ -8,10 +8,11 @@ namespace Interface
     {
       public  abstract int Balance { get; set; }
       public abstract string Name { get; set; }
-        public abstract string GetBalanceData();
-
-
-        
-        
+      public abstract string GetBalanceData();
+       public void ResetBalance()
+        {
+            Balance = 0;
+            
+        }
     }
 }

@@ -11,11 +11,10 @@ namespace Interface
         public override string Name { get; set; }
         public override string GetBalanceData()
         {
-            return $"`s balance is: {Balance} + {BonusBalance}. Attention! This is Premium user."
-;
+            return $"`s balance is: {Balance} + {BonusBalance}. Attention! This is Premium user.";
         }
 
-
+       
 
     }
 }
